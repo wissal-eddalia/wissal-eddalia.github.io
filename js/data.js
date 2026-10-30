@@ -42,7 +42,7 @@ const CURRENT_WORK = [
     when: "Oct 2026 – Jun 2027",
     points: [
       "Working on final-year research project FYP/2026/244, focused on translating natural-language integration requests into executable API workflows.",
-      "Collaborating with Nada Zanoun at BIOME on the project.",
+      "Collaborating with Nada Zanoun  on the project.",
       "Working with LLMs, OpenAPI/Swagger specifications, workflow generation, data mapping, and webhook configuration.",
       "Developing a framework for workflow validation, error handling, and human-in-the-loop correction to improve reliability and user control.",
       "Supervised by Prof. Fouad Dahak, Prof. Dalila Tamzalit (University of Nantes), and Jean-Philippe Gouigoux (Salvia)."
@@ -275,8 +275,48 @@ const CERTS = [
 
 
 const SKILLS = {
-  "Programming":["Python","C++","JavaScript","TypeScript","R","SQL"],
-  "AI & Data Science":["Deep Learning","NLP","Time Series","Reinforcement Learning","Computer Vision"],
-  "Frameworks & Tools":["FastAPI","React","Flutter","PostGIS","QGIS","Git","Docker"]
+  "Programming Languages": [
+    "Python", "C++", "JavaScript", "TypeScript",
+    "Dart", "R", "SQL"
+  ],
+
+  "Web Technologies": [
+    "HTML", "CSS", "React", "FastAPI", "Flutter"
+  ],
+
+  "AI & Data Science": [
+    "Machine Learning",
+    "Deep Learning",
+    "Natural Language Processing",
+    "Speech Processing",
+    "Computer Vision",
+    "Time Series Analysis",
+    "Reinforcement Learning",
+    "Data Mining",
+    "Statistical Computing"
+  ],
+
+  "Data Management": [
+    "Database Design",
+    "Database Management",
+    "SQL",
+    "PostgreSQL",
+    "PostGIS",
+    "Data Modeling"
+  ],
+
+  "Engineering & Computing": [
+    "Algorithms",
+    "Optimization",
+    "Distributed Systems",
+    "Robotics",
+    "Wireless Communication"
+  ],
+
+  "Frameworks & Tools": [
+    "Git",
+    "Docker",
+    "QGIS"
+  ]
 };
 const AWARDS = ["Djezzy Ideathon Winner (Dec 2025)","3rd place, LASAL/SecAI Hackathon (2024)","Baccalauréat with Honors, 17.67/20 (2022)"];
