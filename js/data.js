@@ -175,7 +175,7 @@ const PROJECTS = [
     "Geo-AI",
     "Geospatial Data",
     "NLP",
-    "RoBERTa",
+    "LLM",
     "Telecom",
     "React",
     "MongoDB",
@@ -218,8 +218,8 @@ const PROJECTS = [
   name: "Sanad — AI-Powered Claim Verification",
   tags: [
     "Artificial Intelligence",
-    "LLMs",
-    "Natural Language Processing",
+    "LLM",
+    "NLP",
     "Information Retrieval",
     "Evidence-Based Fact-Checking",
     "Browser Extension",
@@ -244,7 +244,7 @@ const PROJECTS = [
     "Dart",
     "Flask",
     "Mobile Development",
-    "Human-Computer Interaction",
+    "HCI",
     "UI/UX Design",
     "User Research",
     "Agile Development"
