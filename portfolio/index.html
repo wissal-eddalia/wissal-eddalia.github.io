@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Wissal Eddalia · AI & Data Science Engineer</title>
+<meta name="description" content="Portfolio of Wissal Eddalia, AI & Data Science engineer: Geo-AI, deep learning, NLP and full-stack systems.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<meta property="og:title" content="Wissal Eddalia · AI & Data Science Engineer">
+<meta property="og:description" content="Geo-AI, deep learning, NLP and full-stack systems. Projects, certificates .">
+<meta property="og:image" content="assets/photo.jpg">
+<meta name="theme-color" content="#064e3b">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="wrap">
+<aside>
+  <div class="photo"><img src="assets/photo.jpg" alt="Portrait of Wissal Eddalia" onerror="this.remove();this.parentNode.textContent='WE'"></div>
+  <div><h1>Wissal Eddalia</h1><p data-i18n="role"></p></div>
+  <nav id="nav"></nav>
+  <a class="btn cvbtn" id="cvSide" data-i18n="cv"></a>
+  <div class="social">
+    <a href="https://github.com/wissal-eddalia">GitHub</a>
+    <a href="https://linkedin.com/in/wissal-eddalia-51a831292">LinkedIn</a>
+    <a href="mailto:wissal.eddalia@ensia.edu.dz">Email</a>
+  </div>
+</aside>
+
+<main>
+  <section id="home" class="hero">
+    <h2 data-i18n="heroTitle"></h2>
+    <p data-i18n="heroP"></p>
+    <p><a class="btn" href="#projects" data-i18n="seeProjects"></a> <a class="btn alt" href="#contact" data-i18n="getInTouch"></a> <a class="btn alt cvlink" data-i18n="cv"></a></p>
+  </section>
+  <section id="current-work">
+  <h2 data-i18n="h_current_work">Current Work</h2>
+  <div class="tl" id="currentWork"></div>
+</section>
+  <section id="experience"><h2 data-i18n="h_experience"></h2><div class="tl" id="exp"></div></section>
+  <section id="projects"><h2 data-i18n="h_projects"></h2><div class="chips" id="filters"></div><div id="projs"></div></section>
+  <section id="certificates"><h2 data-i18n="h_certificates"></h2><div class="certs" id="certs"></div></section>
+  
+  <section id="about"><h2 data-i18n="h_about"></h2>
+    <div class="about">
+      <div class="acard"><h3 data-i18n="skills"></h3><div id="skills"></div></div>
+      <div class="about-row">
+        <div class="acard"><h3 data-i18n="awards"></h3><ul id="awards" class="award-list"></ul></div>
+        <div class="acard"><h3 data-i18n="langs"></h3><ul id="langs" class="lang-list"></ul></div>
+      </div>
+    </div>
+  </section>
+  <section id="contact"><h2 data-i18n="h_contact"></h2>
+    <p data-i18n="contactP"></p>
+    <form id="contactForm" novalidate>
+      <label><span data-i18n="f_name"></span><input name="name" required autocomplete="name"></label>
+      <label><span data-i18n="f_email"></span><input name="email" type="email" required autocomplete="email"></label>
+      <label><span data-i18n="f_message"></span><textarea name="message" rows="5" required></textarea></label>
+      <input name="_gotcha" tabindex="-1" autocomplete="off" class="hp" aria-hidden="true">
+      <button class="btn" type="submit" data-i18n="f_send"></button>
+      <p id="formStatus" role="status"></p>
+    </form>
+    <p class="alt-contact"><span data-i18n="orReach"></span> <a href="mailto:wissal.eddalia@ensia.edu.dz">wissal.eddalia@ensia.edu.dz</a> · <a href="https://linkedin.com/in/wissal-eddalia-51a831292">LinkedIn</a> · <a href="https://github.com/wissal-eddalia">GitHub</a></p>
+  </section>
+  <footer>© <span id="yr"></span> Wissal Eddalia</footer>
+</main>
+</div>
+
+<button id="toTop" data-i18n-aria="top" hidden>↑</button>
+<dialog id="dlg"><div id="dlgBody"></div><p><button class="btn alt" onclick="dlg.close()" data-i18n="close"></button></p></dialog>
+<div id="consent" hidden><span data-i18n="cons_text"></span> <button id="cYes" data-i18n="cons_yes"></button> <button id="cNo" data-i18n="cons_no"></button></div>
+
+<div id="bot">
+  <div id="panel" role="dialog" aria-label="Chat">
+    <header data-i18n="chatHeader"></header>
+    <div id="log" aria-live="polite"></div>
+    <div id="sugg"></div>
+    <form id="f"><input id="q" data-i18n-ph="chatPh" aria-label="Question" autocomplete="off"><button data-i18n="chatSend"></button></form>
+  </div>
+  <button id="toggle" aria-label="Chat">💬</button>
+</div>
+
+<script src="js/data.js"></script>
+<script src="js/i18n.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

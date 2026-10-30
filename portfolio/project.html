@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Project details from Wissal Eddalia's portfolio.">
+<meta name="theme-color" content="#064e3b">
+<title>Project · Wissal Eddalia</title>
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="pd">
+<canvas id="scene" aria-hidden="true"></canvas>
+<div class="scene-fade" aria-hidden="true"></div>
+<header class="pd-bar">
+  <a class="btn alt pd-back" href="index.html#projects" id="backLink"></a>
+  <a class="pd-brand" href="index.html">Wissal Eddalia</a>
+</header>
+<main class="pd-main" id="projectPage">
+  <div id="projectContent" aria-live="polite"></div>
+</main>
+<div id="lightbox" hidden role="dialog" aria-modal="true" aria-label="Image viewer">
+  <button class="lb-btn lb-close" aria-label="Close">✕</button>
+  <button class="lb-btn lb-prev" aria-label="Previous">‹</button>
+  <img alt="">
+  <button class="lb-btn lb-next" aria-label="Next">›</button>
+  <div class="lb-count"></div>
+</div>
+<script src="js/data.js"></script>
+<script src="js/i18n.js"></script>
+<script src="js/project-details.js"></script>
+<script src="js/scenes.js"></script>
+<script src="js/project.js"></script>
+</body>
+</html>
