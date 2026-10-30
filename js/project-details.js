@@ -85,7 +85,7 @@ const PROJECT_DETAILS = {
 
 
 "aciets": {
-  role: "Development Team Leader",
+  role: "Development Team Leader (ASAL)",
   period: "Sep – Oct 2025",
   sections: [
     {
