@@ -269,7 +269,7 @@ const CERTS = [
   {name:"Advanced Geo-AI & Space Technology Program", issuer:"Algerian Space Agency (ASAL)", date:"2025–2026", link:""},
   {name:"Djezzy Ideathon: Winner", issuer:"Djezzy", date:"Dec 2025", link:""},
   {name:"3rd Place, LASAL/SecAI Hackathon", issuer:"LASAL / SecAI", date:"2024", link:""},
-  {name:"Add your next certificate here", issuer:"Issuer", date:"Year", link:""}
+
 ];
 
 
